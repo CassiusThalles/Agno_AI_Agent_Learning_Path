@@ -9,4 +9,6 @@ dependencies = [
     "groq>=0.36.0",
     "ipykernel>=7.1.0",
     "python-dotenv>=1.2.1",
+    "tavily-python>=0.7.13",
+    "yfinance>=0.2.66",
 ]
