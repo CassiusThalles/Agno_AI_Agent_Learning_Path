@@ -14,7 +14,7 @@ assistant = Agent(
 agent_os = AgentOS(
     id="my-first-os",
     description="An OS to manage my first assistant",
-    assistants=[assistant]
+    agents=[assistant]
 )
 
 app = agent_os.get_app()
